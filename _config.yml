@@ -74,4 +74,4 @@ social:
 
 blog_path: /blog.html
 # blog_path : /posts.html
-exclude: [assets/js/bootstrap.js, assets/js/jquery-1.10.2.js, assets/js/landing-page.js, assets/css/landing-page.css, assets/css/bootstrap.css, assets/font-awesome-4.1.0/css/font-awesome.css, assets/font-awesome-4.1.0/scss, assets/font-awesome-4.1.0/less, "GemFile", "Gemfile.lock", README.md, _posts/]
+exclude: [assets/js/bootstrap.js, assets/js/jquery-1.10.2.js, assets/js/landing-page.js, assets/css/bootstrap.css, assets/font-awesome-4.1.0/css/font-awesome.css, assets/font-awesome-4.1.0/scss, assets/font-awesome-4.1.0/less, "GemFile", "Gemfile.lock", README.md, _posts/]
