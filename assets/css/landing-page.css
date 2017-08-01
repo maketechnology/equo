@@ -1691,9 +1691,137 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 #odd {
   background: #f7f7f7;
 }
+
+#nav_f {
+  box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+}
                             
 @media (min-width: 768px){
     .landing-page .navbar-top{
         padding-top: 10px;
     }
+}
+
+.site-header-icon {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 0.4em;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media (min-width: 700px) {
+  .site-header {
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .site-header {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+
+.site-header {
+    color: #88d7e7;
+    background-color: #2f3241;
+    border-bottom-color: #1a1b23;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width: 700px) {
+  .site-header {
+      text-align: left;
+  }
+}
+
+.site-header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+@media (min-width: 992px) {
+  .site-header-logo {
+      float: left;
+  }
+}
+
+.site-header-logo {
+    font-size: 22px;
+}
+
+a {
+    color: #046dc8;
+}
+
+a {
+    color: #4078c0;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.site-header {
+    color: #88d7e7;
+    background-color: #2f3241;
+    border-bottom-color: #1a1b23;
+    -webkit-font-smoothing: antialiased;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+@media (min-width: 992px) {
+  .site-header-nav {
+    float: right;
+  }
+}
+
+@media (min-width: 700px) {
+  .site-header-nav {
+    float: right;
+    margin-top: 7px;
+  }
+}
+
+.site-header a {
+    color: #88d7e7;
+}
+
+.site-header-nav-item {
+    display: inline-block;
+    color: #555;
+}
+
+.site-header-nav-item+.site-header-nav-item {
+    margin-left: 20px;
+}
+
+.site-header-nav-item {
+    display: inline-block;
+    color: #555;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
