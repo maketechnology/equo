@@ -1687,6 +1687,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   justify-content: center; /* Optional, to align inner flex-items
                               horizontally within the column  */
 }
+
+#odd {
+  background: #f7f7f7;
+}
                             
 @media (min-width: 768px){
     .landing-page .navbar-top{
