@@ -1,0 +1,43 @@
+{% for section in site.categories.sections reversed %}
+    <section id="{{section.pathName}}">
+<!-- Page Content -->
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+    
+    <div class="section" id="odd">
+        <div class="container">
+            <div class="row vertical-align">
+                <div class="col-md-5">
+                    <div class="description">
+                        <h4 class="header-text">{{ section.title }}</h4>
+                        <p>{{ section.content }}</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 hidden-xs">
+                    <img class="img-responsive" src="assets/img/sections/{{ section.img }}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% else %}
+
+    <div class="section">
+        <div class="container">
+            <div class="row vertical-align">            
+                <div class="col-md-6 hidden-xs">
+                    <img class="img-responsive" src="assets/img/sections/{{ section.img }}" alt="">
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <div class="description">
+                        <h4 class="header-text">{{ section.title }}</h4>
+                        <p>{{ section.content }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    {% endif %}
+    </section>
+{% endfor %}
