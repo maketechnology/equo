@@ -1729,15 +1729,6 @@ svg:not(:root) {
   }
 }
 
-.site-header {
-    color: #88d7e7;
-    background-color: #2f3241;
-    border-bottom-color: #1a1b23;
-    -webkit-font-smoothing: antialiased;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-
 @media (min-width: 700px) {
   .site-header {
       text-align: left;
@@ -1780,9 +1771,9 @@ a {
 }
 
 .site-header {
-    color: #88d7e7;
-    background-color: #2f3241;
-    border-bottom-color: #1a1b23;
+    color: #87CA00;
+    background-color: #F7F7F7;
+    border-bottom-color: #F7F7F7;
     -webkit-font-smoothing: antialiased;
     padding-left: 12px;
     padding-right: 12px;
@@ -1802,7 +1793,11 @@ a {
 }
 
 .site-header a {
-    color: #88d7e7;
+    color: #87CA00;
+}
+
+.site-header a:hover {
+    color: #91DC5A;
 }
 
 .site-header-nav-item {
