@@ -1771,9 +1771,9 @@ a {
 }
 
 .site-header {
-    color: #87CA00;
-    background-color: #F7F7F7;
-    border-bottom-color: #F7F7F7;
+    color: #FFFFFF;
+    background-color: #1D334B;
+    border-bottom-color: #1D334B;
     -webkit-font-smoothing: antialiased;
     padding-left: 12px;
     padding-right: 12px;
@@ -1793,11 +1793,11 @@ a {
 }
 
 .site-header a {
-    color: #87CA00;
+    color: #FFFFFF;
 }
 
 .site-header a:hover {
-    color: #91DC5A;
+    color: #2CA8FF;
 }
 
 .site-header-nav-item {
