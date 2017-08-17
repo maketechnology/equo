@@ -1836,3 +1836,42 @@ a {
 .landing-page .section-features .card.card-blue .mfizz-icon i{
   color:#00bbff;
 }
+
+.landing-page .section-no-padding .parallax-info {
+  color: white;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+.landing-page .parallax-info .info-background{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 400px;
+  background-color: #5B7289
+}
+
+.landing-page .section-no-padding .parallax-info .info{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform:    translateX(-50%);
+    -ms-transform:     translateX(-50%);
+    -o-transform:      translateX(-50%);
+    transform:         translateX(-50%);
+    z-index: 20;
+    top: 75px;
+}
+
+.landing-page .section-no-padding .parallax-info .info h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.landing-page .section-no-padding .parallax-info .info .btn-lg{
+    margin-top: 35px;
+    padding: 14px 80px;
+}
