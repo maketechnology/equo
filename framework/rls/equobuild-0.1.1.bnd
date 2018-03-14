@@ -28,7 +28,7 @@ plugindir: ${workspace}/cnf/cache/plugins
     aQute.bnd.deployer.repository.LocalIndexedRepo; \
         name = Release; \
         local = ${build}/release; \
-        type = R5|P2
+        type = P2|R5
         
 -plugin.6.P2Repo: \
     com.make.bnd.p2release.P2RepoContentProvider; \
