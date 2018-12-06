@@ -205,14 +205,17 @@ a:focus, a:active {
   border-color: #2ca8ff;
 }
 .btn-info.btn-fill {
-  color: white;
-  background-color: #2ca8ff;
+  color: #3884FF;
+  background-color: #FFFFFF;
   opacity: 1;
+  font-size: 16px;
+  border-color: #2ca8ff;
+  font-weight: bold;
   filter: alpha(opacity=100);
 }
 .btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active, .open > .btn-info.btn-fill.dropdown-toggle {
-  background-color: #109cff;
-  color: white;
+  background-color: #FFFFFF;
+  color: #3884FF;
 }
 .btn-info.btn-fill .caret {
   border-top-color: white;
