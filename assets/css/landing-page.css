@@ -974,7 +974,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-color: #1D334B
+  background-color: #3884FF
 }
 .landing-page .parallax .parallax-background img{
   width: 100%;
@@ -1749,7 +1749,9 @@ svg:not(:root) {
 }
 
 .site-header-logo {
-    font-size: 22px;
+    font-size: 24px;
+    height: 30px;
+    font-weight: bold
 }
 
 a {
@@ -1771,8 +1773,8 @@ a {
 
 .site-header {
     color: #FFFFFF;
-    background-color: #1D334B;
-    border-bottom-color: #1D334B;
+    background-color: #3884FF;
+    border-bottom-color: #3884FF;
     -webkit-font-smoothing: antialiased;
     padding-left: 12px;
     padding-right: 12px;
@@ -1802,6 +1804,9 @@ a {
 .site-header-nav-item {
     display: inline-block;
     color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
 }
 
 .site-header-nav-item+.site-header-nav-item {
